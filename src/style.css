@@ -1,0 +1,107 @@
+
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+
+  body{
+  background:#020617;
+  color:white;
+  font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  min-height:100vh;
+  padding:2rem;
+  }
+
+  .container{
+    max-width:900px;
+    margin:auto;
+    background:#111827;
+    border:1px solid #1f2937;
+    border-radius:20px;
+    padding:2rem;
+    box-shadow:0 12px 35px rgba(0,0,0,.35);
+  }
+
+  h1{
+    margin-bottom:1rem;
+    font-size:2.1rem;
+    color:#c4b5fd;
+    font-weight:700;
+    letter-spacing:.3px;
+  }
+
+  .description{
+    margin-bottom:1.5rem;
+    color:#d1d5db;
+    line-height:1.7;
+    font-size:.98rem;
+  }
+
+  select,
+  textarea{
+    width:100%;
+    background:#1e293b;
+    color:white;
+    border:1px solid #334155;
+    border-radius:12px;
+    padding:1rem;
+    margin-bottom:1rem;
+    outline:none;
+    transition:border-color .2s ease, box-shadow .2s ease, background .2s ease;
+  }
+
+  select{
+    cursor:pointer;
+  }
+
+  textarea{
+    min-height:220px;
+    resize:vertical;
+    line-height:1.6;
+  }
+
+  select:focus,
+  textarea:focus{
+    border-color:#8b5cf6;
+    background:#273449;
+    box-shadow:0 0 0 3px rgba(139,92,246,.18);
+  }
+
+  textarea::placeholder{
+    color:#94a3b8;
+    line-height:1.6;
+  }
+
+  button{
+    width:100%;
+    background:#7c3aed;
+    color:white;
+    border:none;
+    padding:1rem 1.5rem;
+    border-radius:12px;
+    cursor:pointer;
+    font-size:1rem;
+    font-weight:bold;
+    transition:background .2s ease, opacity .2s ease;
+    margin-bottom:1.2rem;
+  }
+
+  button:hover{
+    background:#6d28d9;
+  }
+
+  button:active{
+    opacity:.88;
+  }
+
+  .result{
+    background:#1e293b;
+    border:1px solid #334155;
+    padding:1.2rem;
+    border-radius:12px;
+    white-space:pre-wrap;
+    line-height:1.7;
+    color:#f8fafc;
+    min-height:120px;
+  }
