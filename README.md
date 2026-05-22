@@ -1,5 +1,6 @@
 
-# AI Mail Assistant
+# AI Rentability Analyzer
+
 
 ## Instalación
 
